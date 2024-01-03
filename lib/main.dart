@@ -27,8 +27,10 @@ class MyApp extends StatelessWidget {
               ),
               backgroundColor: Theme.of(context).colorScheme.primary,
               foregroundColor: Colors.white,
-              textStyle:
-                  const TextStyle(fontWeight: FontWeight.bold, fontSize: 30),
+              textStyle: const TextStyle(
+                fontWeight: FontWeight.bold,
+                fontSize: 30,
+              ),
               minimumSize: const Size(350, 80),
             ),
           ),

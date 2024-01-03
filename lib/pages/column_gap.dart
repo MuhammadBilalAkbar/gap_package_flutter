@@ -19,8 +19,11 @@ class ColumnGap extends StatelessWidget {
               height: 200,
               color: Colors.blue,
             ),
-            const Gap(10, color: Colors.amber, crossAxisExtent: 200),
-            // const SizedBox(height:10),
+            const Gap(
+              10,
+              color: Colors.amber,
+              crossAxisExtent: 200,
+            ),
             Container(
               width: 200,
               height: 200,
@@ -29,7 +32,6 @@ class ColumnGap extends StatelessWidget {
             // const Gap(10),
             Container(
               padding: const EdgeInsets.only(top: 10),
-              // margin: const EdgeInsets.only(top: 10),
               child: Container(
                 width: 200,
                 height: 200,

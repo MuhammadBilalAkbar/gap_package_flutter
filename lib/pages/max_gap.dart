@@ -13,9 +13,9 @@ class MaxGapWidget extends StatelessWidget {
       body: const Column(
         children: <Widget>[
           Gap.expand(20, color: Colors.red),
-          Gap(80),
+          Gap(80, color: Colors.black, crossAxisExtent: double.infinity),
           Gap.expand(20, color: Colors.red),
-          MaxGap(2000),
+          MaxGap(2000, color: Colors.yellow, crossAxisExtent: double.maxFinite),
           Gap.expand(20, color: Colors.red),
           Row(
             children: <Widget>[

@@ -17,23 +17,11 @@ class RowGap extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               const Gap(10, color: Colors.black, crossAxisExtent: 200),
-              Container(
-                width: 200,
-                height: 200,
-                color: Colors.blue,
-              ),
+              Container(width: 200, height: 200, color: Colors.blue),
               const Gap(10, color: Colors.amber, crossAxisExtent: 200),
-              Container(
-                width: 200,
-                height: 200,
-                color: Colors.red,
-              ),
+              Container(width: 200, height: 200, color: Colors.red),
               const Gap(10, color: Colors.grey, crossAxisExtent: 200),
-              Container(
-                width: 200,
-                height: 200,
-                color: Colors.green,
-              ),
+              Container(width: 200, height: 200, color: Colors.green),
               const Gap(10, color: Colors.pink, crossAxisExtent: 200),
             ],
           ),

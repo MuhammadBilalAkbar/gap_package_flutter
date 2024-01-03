@@ -12,7 +12,7 @@ class SliversGap extends StatelessWidget {
       appBar: AppBar(title: Text(title)),
       body: CustomScrollView(
         slivers: [
-          const SliverGap(20),
+          const SliverGap(20, color: Colors.purple),
           SliverToBoxAdapter(
             child: Container(height: 100, color: Colors.blue),
           ),
